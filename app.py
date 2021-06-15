@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
 
-    app.logger.info('Main request successful')
+    app.logger.info('Main request successful.')
     return "Hello world!"
 
 
